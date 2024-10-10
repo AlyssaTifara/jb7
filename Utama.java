@@ -6,7 +6,7 @@ public class Utama {
         Staff staff2[] = new Staff[3];
 
         man[0] = new Manager();
-        man[0].setNama("Tedjo");
+        man[0].setNama("Renaldi");
         man[0].setNip("101");
         man[0].setGolongan("1");
         man[0].setTunjangan(5_000_000);
@@ -20,7 +20,7 @@ public class Utama {
         man[1].setBagian("Pemasaran");
     
         staff1[0] = new Staff();
-        staff1[0].setNama("Renaldi");
+        staff1[0].setNama("Tedjo");
         staff1[0].setNip("0003");
         staff1[0].setGolongan("2");
         staff1[0].setLembur(10);
