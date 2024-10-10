@@ -21,23 +21,22 @@ public class Manager extends Karyawan{
 
     public void viewStaff(){
         int i;
-        System.out.println("==========================");
         for (i = 0; i < st.length; i++) {
             st[i].lihatInfo();
         }
-        System.out.println("==========================");
     }
 
     public void lihatInfo (){
         System.out.println("-----------------------------");
-        System.out.println("Manager : " + this.getBagian());
-        System.out.println("NIP : " + this.getNip());
-        System.out.println("Nama : " + this.getNama());
-        System.out.println("Golongan : " + this.getGolongan());
-        System.out.println("Tunjangan : " + this.getTunjangan());
-        System.out.println("Gaji : " + this.getGaji());
-        System.out.println("Bagian : " + this.getBagian());
+        System.out.println("Manager     : " + this.getBagian());
         System.out.println("-----------------------------");
+        System.out.println("NIP         : " + this.getNip());
+        System.out.println("Nama        : " + this.getNama());
+        System.out.println("Golongan    : " + this.getGolongan());
+        System.out.println("Tunjangan   : " + this.getTunjangan());
+        System.out.println("Gaji        : " + this.getGaji());
+        System.out.println("Bagian      : " + this.getBagian());
+        // System.out.println("-----------------------------");
         this.viewStaff();
     }
 
